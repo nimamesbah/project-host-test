@@ -728,6 +728,10 @@ video {
   height: 100%;
 }
 
+.h-52 {
+  height: 13rem;
+}
+
 .w-40 {
   width: 10rem;
 }
@@ -896,6 +900,31 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\.\/assets\/images\/support-pattern\.png\] {
+  background-color: ./assets/images/support-pattern.png;
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-10 {
   padding: 2.5rem;
 }
@@ -1007,6 +1036,18 @@ video {
 
 .pb-14 {
   padding-bottom: 3.5rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .text-center {
@@ -1222,6 +1263,10 @@ video {
     gap: 2rem;
   }
 
+  .sm\:bg-contain {
+    background-size: contain;
+  }
+
   .sm\:py-5 {
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -1262,6 +1307,11 @@ video {
   .sm\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .sm\:capitalize {
