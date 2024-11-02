@@ -594,6 +594,18 @@ video {
   top: 32%;
 }
 
+.top-0 {
+  top: 0px;
+}
+
+.right-\[-37px\] {
+  right: -37px;
+}
+
+.top-\[12px\] {
+  top: 12px;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -682,6 +694,10 @@ video {
 
 .mb-28 {
   margin-bottom: 7rem;
+}
+
+.mt-28 {
+  margin-top: 7rem;
 }
 
 .block {
@@ -785,6 +801,32 @@ video {
   width: 1rem;
 }
 
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.w-2\/4 {
+  width: 50%;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.rotate-45 {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -839,6 +881,14 @@ video {
 
 .gap-7 {
   gap: 1.75rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .overflow-auto {
@@ -945,8 +995,17 @@ video {
   background-color: rgb(226 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-green-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.fill-\[\#b7b7b7\] {
+  fill: #b7b7b7;
 }
 
 .p-10 {
@@ -1154,6 +1213,11 @@ video {
   color: rgb(28 102 222 / var(--tw-text-opacity));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1178,6 +1242,82 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-main-nav-bg:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 102 222 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-under-domain-bg:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(232 241 248 / var(--tw-bg-opacity));
+}
+
+.hover\:fill-\[\#b7b7b7\]:hover {
+  fill: #b7b7b7;
+}
+
+.hover\:text-parag-body-text:hover {
+  --tw-text-opacity: 1;
+  color: rgb(112 112 112 / var(--tw-text-opacity));
+}
+
+.hover\:text-low-color-cards:hover {
+  --tw-text-opacity: 1;
+  color: rgb(183 183 183 / var(--tw-text-opacity));
+}
+
+.hover\:text-green-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+
+.hover\:text-nav-text-color:hover {
+  --tw-text-opacity: 1;
+  color: rgb(221 232 250 / var(--tw-text-opacity));
+}
+
+.hover\:text-slider-btn-color:hover {
+  --tw-text-opacity: 1;
+  color: rgb(28 102 222 / var(--tw-text-opacity));
+}
+
+.hover\:shadow-md:hover {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-xl:hover {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-2xl:hover {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.hover\:shadow-black:hover {
+  --tw-shadow-color: #000;
+  --tw-shadow: var(--tw-shadow-colored);
+}
+
 .focus\:border:focus {
   border-width: 1px;
 }
@@ -1193,6 +1333,11 @@ video {
 
 .group:hover .group-hover\:flex {
   display: flex;
+}
+
+.group:hover .group-hover\:text-slider-btn-color {
+  --tw-text-opacity: 1;
+  color: rgb(28 102 222 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
