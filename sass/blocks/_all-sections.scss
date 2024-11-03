@@ -1,5 +1,117 @@
+body {
+    background-color: $main-bg;
+}
 .main {
-    width: $w-full ;
+width: $w-full ;
     height: $h-full ;
     
+}
+.container {
+    @include containerbox;
+    @include d-flex(row,center,center,0);
+    border-radius: 8px;
+    background-color:rgb(238, 238, 238);
+    &__leftBox {
+        @include containeritems;
+        &--btn {
+            text-align: center;
+            background-image:linear-gradient(to right,#1c66de,rgb(112, 255, 136)) ;
+            color: #d1d1d1;
+            width: $w-full;
+            border: 0;
+            border-radius: $rounded-full;
+            margin-top: 16px;
+            cursor: pointer;
+            transition: 200ms;
+
+            padding: 4px 0;
+            &:hover {
+                 transform: scale(1.1)
+            }
+        }
+        &--signUp {
+            color: #8f8f8f;
+            text-decoration: underline;
+            transition: 300ms;
+            text-align: center;
+            cursor: pointer;
+
+                &:hover {
+                color: #ff7cbd;
+
+            }
+            
+        }
+        
+
+
+
+
+    }
+    
+}
+.items {
+    &__top--row {
+        @include d-flex(row,space-between,center,0);
+        text-transform: capitalize;
+        
+    }
+    &__top--socials {
+        @include d-flex(row,space-between,center,30px);
+
+        border-radius:$rounded-full;
+        background-color: $main-bg;
+        padding: 12px 12px;
+        transition: 300ms;
+        img {
+            cursor: pointer;
+        }
+        &:hover {
+            background-color: gray;
+
+        }
+        
+
+    }
+    &__bottom--row{
+        @include d-flex(row,space-between,center,0);
+        width: $w-full;
+        margin-top: 10px;
+        h4{
+            cursor: pointer;
+            transition: 300ms;
+            &:hover {
+                color: #1c66de;
+            }
+        }
+        &__checkbox {
+            @include d-flex(row,space-between,center,8px);
+            transition:300ms;
+            width: max-content;
+            &:hover {
+                color: #50ad39;
+            }
+        }
+    }
+}
+.labels {
+    display: block;
+    margin-top: 35px;
+    &__inputs {
+        display: block;
+        margin-top: 16px;
+        border-radius: $rounded-full;
+        width: $w-full;
+        border: 0px;
+        padding: 12px 12px;
+        background-color: gainsboro;
+
+    }
+
+
+}
+.title {
+    text-align: center;
+    color: #d1d1d1;
+
 }

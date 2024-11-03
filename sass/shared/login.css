@@ -12,7 +12,125 @@ a {
   text-decoration: none;
 }
 
+body {
+  background-color: #1c66de;
+}
+
 .main {
   width: 100%;
   height: 100%;
+}
+
+.container {
+  width: 70%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  border-radius: 8px;
+  background-color: rgb(238, 238, 238);
+}
+.container__leftBox {
+  width: 70%;
+  margin: 50px auto;
+}
+.container__leftBox--btn {
+  text-align: center;
+  background-image: linear-gradient(to right, #1c66de, rgb(112, 255, 136));
+  color: #d1d1d1;
+  width: 100%;
+  border: 0;
+  border-radius: 9999px;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: 200ms;
+  padding: 4px 0;
+}
+.container__leftBox--btn:hover {
+  transform: scale(1.1);
+}
+.container__leftBox--signUp {
+  color: #8f8f8f;
+  text-decoration: underline;
+  transition: 300ms;
+  text-align: center;
+  cursor: pointer;
+}
+.container__leftBox--signUp:hover {
+  color: #ff7cbd;
+}
+
+.items__top--row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  text-transform: capitalize;
+}
+.items__top--socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  border-radius: 9999px;
+  background-color: #1c66de;
+  padding: 12px 12px;
+  transition: 300ms;
+}
+.items__top--socials img {
+  cursor: pointer;
+}
+.items__top--socials:hover {
+  background-color: gray;
+}
+.items__bottom--row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  width: 100%;
+  margin-top: 10px;
+}
+.items__bottom--row h4 {
+  cursor: pointer;
+  transition: 300ms;
+}
+.items__bottom--row h4:hover {
+  color: #1c66de;
+}
+.items__bottom--row__checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  transition: 300ms;
+  width: max-content;
+}
+.items__bottom--row__checkbox:hover {
+  color: #50ad39;
+}
+
+.labels {
+  display: block;
+  margin-top: 35px;
+}
+.labels__inputs {
+  display: block;
+  margin-top: 16px;
+  border-radius: 9999px;
+  width: 100%;
+  border: 0px;
+  padding: 12px 12px;
+  background-color: gainsboro;
+}
+
+.title {
+  text-align: center;
+  color: #d1d1d1;
 }/*# sourceMappingURL=login.css.map */

@@ -9,9 +9,41 @@
 </head>
 
 <body>
-    <div class="main">
+    <div class="main relative">
+        <h1 class="title">Hami.</h1>
         <div class="container">
-            <div class="container__leftBox">
+            <div class="container__leftBox items">
+                <div class="items__top--row">
+                    <h1>sign in</h1>
+                    <div class="items__top--socials">
+                        <img width="15px" src="../src/assets/images/facebook-176-svgrepo-com.svg" alt="">
+                        <img width="15px" src="../src/assets/images/twitter-154-svgrepo-com.svg" alt="">
+                    </div>
+
+                </div>
+                <form class="container__leftBox__form" action="index-login.html">
+                    <label class="labels" for="userName">USERNAME</label>
+                    <input class="labels__inputs" type="text" name="userName" id="userName" placeholder="Username">
+                    <label class="labels" for="password">PASSWORD</label>
+                    <input class="labels__inputs" type="password" name="password" id="password" placeholder="Password">
+                </form>
+                <button class="container__leftBox--btn">
+                    <h3>Sign in</h3>
+                </button>
+                <div class="items__bottom--row">
+                    <div class="items__bottom--row__checkbox">
+                       <input type="checkbox" id="rememberpass" name="rememberpass">
+                       <label for="rememberpass">Remember Me</label>
+                    </div>
+                    <h4>Forgot Password</h4>
+                </div>
+                <div class="container__leftBox--signUp">
+                    <h5>Dont have an account?click here</h5>
+                </div>
+
+
+            </div>
+            <div class="container__rightBox contents">
 
             </div>
 
